@@ -3,8 +3,10 @@
 
 ### Задание 1
 * Получите уникальные названия районов из таблицы с адресами, которые начинаются на “K” и заканчиваются на “a” и не содержат пробелов.
-  ![alt text](https://github.com/AntonKurapov66/sql_1_hw/blob/main/img/1.PNG)
 
+   ![alt text](https://github.com/AntonKurapov66/sql_1_hw/blob/main/img/1.PNG)
+
+*  SELECT DISTINCT(district) FROM address WHERE district LIKE "K%a" and district NOT LIKE "% %";
 ### Задание 2
 Получите из таблицы платежей за прокат фильмов информацию по платежам, которые выполнялись в промежуток с 15 июня 2005 года по 18 июня 2005 года включительно и стоимость которых превышает 10.00.
 
